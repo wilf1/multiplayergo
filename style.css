@@ -1,0 +1,160 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+/*#goban 
+{
+
+float:left;
+}
+#scores 
+{
+float:right;
+}*/
+
+
+#wrapper {
+  width: 1000px;
+  overflow:wrap; /* will contain if #first is longer than #second */
+  height:620px;
+}
+#goban {
+  width: 608px;
+  padding-right:20px;
+  float:left; /* add this */
+}
+#scores {
+  overflow: hidden; /* if you don't want #second to wrap below #first */
+  font-family: "courier new";
+  font-weight: 1000;
+  font-size: 30px;
+  text-align: left;
+  width:0px;
+  height:0px;
+}
+
+
+#result
+{
+  float;
+  padding-top:60px;
+  padding-bottom: 20px;
+  /*background: white;
+  border-style:solid;*/
+  border-width:3px;
+
+}
+
+
+#sidebar
+{
+  /*background-color:rgb(173, 173, 173);*/
+  width: 208px;
+  height: 608px;
+  float:left;
+  
+  
+  font-family:"open sans";
+}
+#scorebar
+{
+  float:left;
+}
+
+#controls
+{
+  width: 166px;
+  height:82px;
+  float:right;
+}
+#leftblock
+{
+  width:82px;
+  float:left;
+}
+
+#navigate
+{
+  float:down;
+
+}
+
+#undobutton
+{
+  float:left;
+}
+
+#redobutton
+{
+  padding-left:2px;
+  float:left;
+}
+#pass
+{
+  padding-top:2px;
+}
+#agreedisagree
+{
+  padding-top:42px;
+}
+#agree
+{
+  float:left;
+  
+}
+#disagreebutton
+{
+  padding-left:2px;
+  float:left;
+}
+#resignbutton
+{
+  float:right;
+}
+#comments
+{
+  width:200px;
+  
+  float:left;
+  color: #363636;
+  padding-left:20px;
+  
+  font-weight:bold;
+  font-size:12;
+}
+#commentsplace
+{
+  padding-top:2px;
+  width:166px;
+  display:none;
+}
+#black
+{
+  
+  float:right;
+  padding-top:44px;
+  width:166px;
+  height:223px;
+  padding-bottom:42px;
+  color:white;
+  /*background-color: #2a2a2a;*/
+  text-align:center;
+}
+#white
+{
+  float:right;
+  height:219px;
+}
+
+h1 
+{
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+body
+{
+  /*background-color:rgb(15,15,15);*/
+}
+.details-bar.cleanslate {
+  display: none !important;
+}
